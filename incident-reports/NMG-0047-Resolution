@@ -1,0 +1,27 @@
+Active Directory Ticket – Jane Cooper
+
+1. Jane's user account is in the Operations OU.
+
+2. I found that Jane was in the Operations OU instead of the HR OU because she is an HR payroll specialist.
+
+3. Jane Cooper is currently a member of the Operations Users group. She should be a member of the HR Users group.
+
+Issue Explanation:
+
+The reason this issue occurred is that Jane was placed in the incorrect OU, which caused her to receive the wrong policies. This is why the policies were not applied to her properly.
+
+Ticket number: HMG-0047
+
+Affected user: Jane Cooper (jcooper@HMG.com)
+
+Issue reported: Unable to access HR shared resources, desktop policies, and mapped drives from teammates.
+
+Root cause: Jane was placed in the incorrect OU, which caused her to receive the wrong policies and prevented her from accessing the appropriate HR resources.
+
+Fix applied: To fix the issue, I moved Jane Cooper into the correct HR OU. I also changed her security group to HR-Users.
+
+Verification: I confirmed that the issue was resolved by reviewing the OU and security group membership lists and taking screenshots.
+
+Date resolved: 08/10/2026
+
+Resolved by: Didier M. Aboutou
